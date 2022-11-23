@@ -1,0 +1,204 @@
+<div id="home">
+  <div class="logoBox">
+    <div id="logo1">Make the most</div>
+    <div id="logo2">of your time</div>
+  </div>
+
+  <div class="overlay">
+    <div class="popup">
+      <h2>You need to authenticate in order to proceed!</h2>
+      <a class="close" (click)="closePopup()">&times;</a>
+    </div>
+  </div>
+
+  <div id="hirebtn">
+    <button type="button" (click)="Hire()" class="btn btn-info">
+      Hire Handyman
+    </button>
+  </div>
+
+  <div id="earnbtn">
+    <button type="button" (click)="EarnMoney()" class="btn btn-info">
+      Earn Money
+    </button>
+  </div>
+</div>
+<div class="aboutContainer">
+  <h2 style="margin-top: 10vh">Need something done?</h2>
+  <div class="aboutBox">
+    <div class="inAboutBox">
+      <img
+        class="aboutImgs"
+        src="https://www.f-cdn.com/assets/main/en/assets/illustrations/project/post-a-project.svg"
+      />
+      <p class="aboutTitle">Post a job</p>
+      <div class="aboutDescription">
+        <p>
+          It’s free and easy to post a job. Simply fill in a title, description
+          and budget and competitive bids come within minutes.
+        </p>
+      </div>
+    </div>
+    <div class="inAboutBox">
+      <img
+        class="aboutImgs"
+        src="https://www.f-cdn.com/assets/main/en/assets/illustrations/freelancer/work.svg"
+      />
+      <p class="aboutTitle">Choose freelancers</p>
+      <div class="aboutDescription">
+        <p>
+          There is always someone there for your requirements and to save your
+          time. Help is just a click away !
+        </p>
+      </div>
+    </div>
+    <div>
+      <img
+        class="aboutImgs"
+        src="https://www.f-cdn.com/assets/main/en/assets/illustrations/portfolio/browse-portfolios.svg"
+      />
+      <p class="aboutTitle">Browse portfolios</p>
+      <div class="aboutDescription">
+        <p>
+          Find professionals you can trust by browsing their samples of previous
+          work and reading their profile reviews.
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr style="width: 90%; text-align: center" />
+  <div style="display: flex">
+    <div style="width: 52vw">
+      <div style="width: 30vw">
+        <p>SELL ANY SKILL YOU HAVE</p>
+        <h2>All you need to do what you want when you want.</h2>
+        <h2>Round your budget.</h2>
+        <p>
+          Wheter you're just getting started or are an experienced
+          freelancer,our platform help you grow.
+        </p>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div
+      id="demo"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      style="display: flex"
+    >
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="6"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block">
+            <img class="homeCarouselImage" src="../../../assets/cleaning.jpg" />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block">
+            <img class="homeCarouselImage" src="../../../assets/handyman.jpg" />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block">
+            <img
+              class="homeCarouselImage"
+              src="../../../assets/dog_walking.jpg"
+            />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block">
+            <img
+              class="homeCarouselImage"
+              src="../../../assets/gardening.jpg"
+            />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block">
+            <img
+              class="homeCarouselImage"
+              src="../../../assets/moving_help.jpg"
+            />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block">
+            <img
+              class="homeCarouselImage"
+              src="../../../assets/oldest_caring.jpg"
+            />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block">
+            <img
+              class="homeCarouselImage"
+              src="../../../assets/babysitter.jpg"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+  <hr style="width: 90%; text-align: center" />
+</div>
