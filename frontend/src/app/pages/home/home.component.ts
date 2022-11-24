@@ -39,6 +39,7 @@ export class HomeComponent implements OnInit {
       );
       if (element != null) {
         console.log(element);
+        element.style.visibility = 'visible';
         element.style.opacity = '100%';
         element.style.zIndex = '2';
       }
@@ -67,7 +68,6 @@ export class HomeComponent implements OnInit {
       element.style.visibility = 'hidden';
       element.style.opacity = '0%';
       element.style.zIndex = '-1';
-      element.style.visibility = 'visible';
     }
     this.EnableScroll();
   }
