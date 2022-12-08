@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jc+j4uNM4e/EMMyZYSLu6i7tnbUf+jF3kqFSYD+LQOTqNHDbnP6HtVfi8j3aUbnW7zPUzOlcTMbriL+pS8xwwQ==",
+  "dgSpecHash": "MXacI5/rKPJiA79WnXVcTpqze1XttJH6gaNCqt5uSsYRgRM1CztJwLGPVEZC6jvmHNfboxOd2zk7rInD4cyG0A==",
   "success": true,
   "projectFilePath": "D:\\Anul 1 Master SD\\SEM 1\\MOP\\Handymand-mops\\handymand-mops\\backend\\Handymand\\Handymand\\Handymand.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valhalla\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Valhalla\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Valhalla\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\Valhalla\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Valhalla\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Valhalla\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

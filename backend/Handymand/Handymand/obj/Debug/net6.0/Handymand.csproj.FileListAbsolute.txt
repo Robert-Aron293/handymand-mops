@@ -85,3 +85,4 @@ D:\Anul 1 Master SD\SEM 1\MOP\Handymand-mops\handymand-mops\backend\Handymand\Ha
 D:\Anul 1 Master SD\SEM 1\MOP\Handymand-mops\handymand-mops\backend\Handymand\Handymand\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\Anul 1 Master SD\SEM 1\MOP\Handymand-mops\handymand-mops\backend\Handymand\Handymand\bin\Debug\net6.0\System.Text.Json.dll
 D:\Anul 1 Master SD\SEM 1\MOP\Handymand-mops\handymand-mops\backend\Handymand\Handymand\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Anul 1 Master SD\SEM 1\MOP\Handymand-mops\handymand-mops\backend\Handymand\Handymand\bin\Debug\net6.0\BCrypt.Net-Core.dll
