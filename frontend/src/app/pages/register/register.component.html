@@ -1,0 +1,76 @@
+<div id ="failedPopup"  class="alert alert-danger" role="alert">
+    <a class="close" (click)="closePopup()" >&times;</a>
+    <h4 class="alert-heading">Register error</h4>
+    <p id="failedMessage"></p>
+</div>
+
+
+<div class="wrapper fadeInDown">
+    <div id="formHeader">
+        <p>
+            Log on
+        </p>
+    </div>
+    <div id="formContent">
+
+            <form [formGroup] = "myForm" (ngSubmit)="doRegister()">
+                <div class="form-group fadeIn first" style="margin-top: 2vh; margin-bottom: 2vh;">
+                    <label>Email</label>
+                    <div class="inputForm">
+                        <input class="form-control" formControlName="email"
+                        [ngClass]="myForm.controls['email'].errors && myForm.controls['email'].dirty ? 'is-invalid' :''">
+                    </div>
+
+                </div>
+                <div class="form-group fadeIn second" style="margin-top: 2vh; margin-bottom: 2vh;">
+                    <label>First Name</label>
+                    <div class="inputForm">
+                        <input class="form-control" formControlName="firstName"
+                        [ngClass]="myForm.controls['firstName'].errors && myForm.controls['firstName'].dirty ? 'is-invalid' :''">
+                    </div>
+
+                </div>
+                <div class="form-group fadeIn third" style="margin-top: 2vh; margin-bottom: 2vh;">
+                    <label>Last Name</label>
+                    <div class="inputForm">
+                        <input class="form-control" formControlName="lastName"
+                        [ngClass]="myForm.controls['lastName'].errors && myForm.controls['lastName'].dirty ? 'is-invalid' :''">
+                    </div>
+                </div>
+
+                <div class="form-group fadeIn fourth" style="margin-top: 2vh; margin-bottom: 2vh;">
+                    <label>Birthday</label>
+                    <div class="inputForm">
+                        <input class="form-control" formControlName="birthday" type="date" value="2000-01-01"
+                        min="1930-01-01" max="2018-06-14"
+                        [ngClass]="myForm.controls['birthday'].errors && myForm.controls['birthday'].dirty ? 'is-invalid' :''">
+                    </div>
+                </div>
+
+                <div class="form-group fadeIn fourth" style="margin-top: 2vh; margin-bottom: 2vh;">
+                    <label>Password</label>
+                    <div class="inputForm">
+                        <input class="form-control" formControlName="password" type="password"
+                        [ngClass]="myForm.controls['password'].errors && myForm.controls['password'].dirty ? 'is-invalid' :''">
+                    </div>
+
+                </div>
+                  
+            
+                <div id="buttonRegister" style="margin-top: 2vh; margin-bottom: 2vh;">
+                    <button #registerButton  [disabled]="myForm.invalid" type="submit" class="btn btn-success">Register</button>
+                    <div #countdown></div>
+                </div>
+
+            </form>
+
+            <div id="formFooter">
+                <p>By creating an account, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a>.</p>
+                <hr>
+                <p>Already have an account? <a href="login">Sign in</a></p>
+             </div>
+     </div>
+
+
+</div>
+
