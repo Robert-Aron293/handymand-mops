@@ -1,0 +1,48 @@
+<div id ="failedPopup"  class="alert alert-danger" role="alert">
+    <a class="close" (click)="closePopup()" >&times;</a>
+    <h4 class="alert-heading">Login error</h4>
+    <p id="failedMessage"></p>
+</div>
+
+
+<div class="wrapper fadeInDown">
+    <div id="formHeader">
+        <p>Log in</p>
+    </div>
+    <div id="formContent">
+
+        <div class ="form-group fadeIn first" style="margin-top: 2vh; margin-bottom: 2vh;">
+            <label>Email</label>
+            <div class="inputForm">            
+                <input class ="form-control" [(ngModel)] = "email" (keydown.enter)="doLogin()"/>
+            </div>
+
+        </div>
+        <div class = "form-group fadeIn second" style="margin-top: 2vh; margin-bottom: 2vh;">
+            <label>Password</label>
+            <div class="inputForm">
+                <input class="form-control" type="password" [(ngModel)] = "password" (keydown.enter)="doLogin()">
+            </div>
+
+        </div>
+        
+        <div class="alert alert-danger" *ngIf="error">{{error}}</div>
+        <!--<div class="alert alert-danger" [hidden]="!error">{{error}}</div>
+        <div class="alert alert-danger" [style.display]="error ? 'block' : 'none'">{{error}}</div>-->
+        
+        <button #loginButton
+        class="btn" 
+        [ngClass] = "isDisabled ? 'btn btn-primary' : 'btn btn-success'"
+        [disabled]="isDisabled"
+        (click)="doLogin()"
+        style="margin-bottom: 2vh;"
+        >Login </button><div #countdown></div>
+
+            <!-- Remind Passowrd -->
+
+            <div id="formFooter">
+                <a class="underlineHover" href="register">Join Us</a>
+            </div>
+    </div>
+
+</div>
